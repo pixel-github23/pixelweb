@@ -1,0 +1,59 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+	background-image: url("images/Background.jpg");
+	background-size: cover;
+
+}
+header {
+padding: 15px;
+background-color: #1A1A1A;
+}
+button {
+background-color: orange;
+padding: 5px;
+border: 2px solid black;
+display: block;
+cursor: pointer;
+}
+button:hover {
+background-color: #D77D34;
+}
+nav ul {
+list-style-type: none;
+}
+nav ul li {
+	display: inline;
+	margin: 2px;
+}
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+nav ul li a:hover {
+background-color: #812D2D;
+}
+img {
+display: block;
+}
+p {
+color: black;
+}
+button.github {
+background-color: #1D1327;
+color: white;
+margin: 5px;
+cursor: pointer;
+}
+button.github:hover {
+padding: 7px;
+}
+footer {
+position: absolute;
+bottom: 0;
+height: 80px;
+background-color: black;
+}
